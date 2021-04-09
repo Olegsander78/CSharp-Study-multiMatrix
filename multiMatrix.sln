@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multiMatrix", "multiMatrix.csproj", "{7AF6480A-DA69-4CE1-B9C0-70A5A93D8EDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF6480A-DA69-4CE1-B9C0-70A5A93D8EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF6480A-DA69-4CE1-B9C0-70A5A93D8EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF6480A-DA69-4CE1-B9C0-70A5A93D8EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF6480A-DA69-4CE1-B9C0-70A5A93D8EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97B0A753-A6EA-41C9-8E39-DA4B118196C9}
+	EndGlobalSection
+EndGlobal
