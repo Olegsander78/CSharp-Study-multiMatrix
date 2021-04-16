@@ -11,16 +11,16 @@ namespace multiMatrix
         /// <summary>
         /// Создание рандомной матрицы 
         /// </summary>
-        /// <param name="Col"></param>
-        /// <param name="Str"></param>
+        /// <param name="Str">Кол-во строк</param>
+        /// <param name="Col">Кол-во колонок</param>
         /// <returns></returns>
-        static int[,] GetRandomMatrix(int Col, int Str)
+        static int[,] GetRandomMatrix(int Str, int Col)
         {
             Random r = new Random();
-            int[,] tempArr = new int[Col, Str];
-            for (int i = 0; i < Col; i++)
+            int[,] tempArr = new int[Str, Col];
+            for (int i = 0; i < Str; i++)
             {
-                for (int j = 0; j < Str; j++)
+                for (int j = 0; j < Col; j++)
                 {
                     tempArr[i, j] = r.Next(100);
                 }
@@ -30,8 +30,8 @@ namespace multiMatrix
         /// <summary>
         /// Произведение множителя на матрицу
         /// </summary>
-        /// <param name="Prod"></param>
-        /// <param name="Arr"></param>
+        /// <param name="Prod">Множитель матрицы</param>
+        /// <param name="Arr">Матрица</param>
         static void GetProductMatrix(int Prod, int[,] Arr)
         {
             for (int i = 0; i < Arr.GetLength(0); i++)
@@ -46,8 +46,8 @@ namespace multiMatrix
         /// Метод перемножения разноразмерных матриц , с созданием матрицы размерностью
         /// по максимальным значениям строк и колонок входных матриц.
         /// </summary>
-        /// <param name="Arr1"></param>
-        /// <param name="Arr2"></param>
+        /// <param name="Arr1">Матрица первая</param>
+        /// <param name="Arr2">Матрица вторая</param>
         /// <returns></returns>
         static int[,] GetProductMatrixOnMatrix(int[,] Arr1, int[,] Arr2)
         {
